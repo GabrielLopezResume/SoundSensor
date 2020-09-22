@@ -1,2 +1,2 @@
 # SoundSensor
-Code for using the Arduino sound sensor. 
+The sound sensor has both analog and digital inputs. For the application of using them with leds, the digital input is easier to implement. This sensor has a led on board which turns on and off with the digital output. This can be used when the module is provided power and ground. Once there, you can turn the potentiometer to have the digital output led light when you snap. If you are having trouble finding the point where the light can be turned on and off then I recommend using the setupSound.ino to recalibrate the sensor. 
